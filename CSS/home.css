@@ -1,4 +1,13 @@
 /*Agregue esto para que todo las páginas tenan la misma disposición inicial*/
 *{padding: 0;
 margin: 0;
+display: flex;
+}
+
+header {
+  flex-wrap: row nowrap;
+
+}
+main {
+  flex-wrap: 
 }
