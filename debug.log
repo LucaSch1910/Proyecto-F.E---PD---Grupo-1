@@ -1,2 +1,8 @@
 [1027/120118.491:ERROR:crash_report_database_win.cc(498)] failed to stat report
 [1027/120134.783:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1027/121342.275:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1027/122336.882:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1027/123336.886:ERROR:crash_report_database_win.cc(498)] failed to stat report
+[1027/123336.886:ERROR:filesystem_win.cc(116)] GetFileAttributes C:\Users\Luca\AppData\Local\Google\Chrome\User Data\Crashpad\reports\89c9b41a-3259-4fa8-98cd-496cf71419af.dmp: The system cannot find the file specified. (0x2)
+[1027/123336.887:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1028/112026.790:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
