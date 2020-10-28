@@ -6,7 +6,6 @@ display: flex;
 
 header {
   flex-wrap: row nowrap;
-
 }
 main {
   flex-wrap: 
