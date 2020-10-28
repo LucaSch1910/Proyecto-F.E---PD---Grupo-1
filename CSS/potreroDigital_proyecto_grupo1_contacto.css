@@ -1,0 +1,80 @@
+@media query (max-width:480px){
+  form, .contacto{
+    width: 100%;
+    background-attachment: fixed;
+  }
+}
+
+
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: monospace;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+h3{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.frase{
+  font-size: 17px;
+  font-weight: bolder;
+  text-align: justify;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 5%;
+  color: #fff;
+}
+
+input{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+.contacto{
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border none;
+  width: 450px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 450px;
+  margin: auto;
+}
+
+#botón{
+  background: black;
+  color: #fff;
+  padding: 20px;
+}
