@@ -1,5 +1,3 @@
-/*Agregue esto para que todo las páginas tengan la misma disposición inicial*/
-
 /* @media query (max-width:480px){ */
 ul, ol, li {
   list-style: none;
@@ -36,5 +34,11 @@ ul, ol, li {
   width: 500px;
   font-family: sans-serif;
 }
+
+.headerimg {
+  width: 150px;
+  height: 150px;
+}
+
 
 /* } */
