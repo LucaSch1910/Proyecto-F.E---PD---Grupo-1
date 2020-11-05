@@ -1,21 +1,27 @@
-body{display: flex;
-width: 100%;
-justify-content: center;
+body{
+  display: flex;
+  width: 100%;
+  justify-content: center;
 
 }
-main{width: 95%;
-    margin-top: 1%;
+main{
+  width: 95%;
+  margin-top: 1%;
 
 }
 
 
-.MenuPag3{ background-color: lightskyblue;
-    box-shadow: 2px 2px 5px #999;
-flex-direction: column;
-text-align: center;
+.MenuPag3{
+  background-color: lightskyblue;
+  box-shadow: 2px 2px 5px #999;
+  flex-direction: column;
+  text-align: center;
 
 }
-li{list-style:none;}
+li{
+  list-style:none;
+}
 
-a { text-decoration: none;
+a {
+  text-decoration: none;
     }

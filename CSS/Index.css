@@ -1,5 +1,6 @@
-/* @media query (max-width:480px){ */
-ul, ol, li {
+
+ @media query (max-width:480px;){}
+/* ul, ol, li {
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -28,16 +29,42 @@ ul, ol, li {
 .nav li:hover > ul {
   display: block;
 }
+Elimine todo esto porque se dificultaba demasiado el resto de las tareas.
+El menu de inicio, de momento, es desplegable siempre*/
 
-#header {
-  margin:auto;
-  width: 500px;
-  font-family: sans-serif;
+main {
+  text-align: center;
+}
+
+footer {
+  text-align: left;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  background-color: lightskyblue;
+  box-shadow: 2px 2px 5px #999;
+  flex-direction: column;
+  text-align: center;
+}
+
+.bio{
+  flex-direction: row;
 }
 
 .headerimg {
   width: 150px;
   height: 150px;
+}
+#element1{
+
+}
+
+#header {
+  margin:auto;
+  width: 500px;
+  font-family: sans-serif;
 }
 
 
