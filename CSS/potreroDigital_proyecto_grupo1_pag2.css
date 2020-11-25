@@ -1,74 +1,115 @@
+:root{
+--color_progreso: #00008B;
+  --color_falta: #C0C0C0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
 body{
-  background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
+/* background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
+background-size: 100vw 100vh;
+background-attachment: fixed; */
+ background: linear-gradient(-45deg, #000080, #4169E1, #B0E0E6, #4682B4, #000080);
 }
 
-@media query (max-width:480px){
-  .contenedor .contenedor2{
-    flex-wrap: wrap;
-  }
-}
-
-img{
-  margin: 15px;
-  width: 100%
-  max-width: 280px;
+p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    font-family: Poppins;
 }
 
 h2{
   color: #fff;
   text-align: center;
-  margin: 0;
+  margin-left: 20px;
   font-size: 40px;
-  font-family: sans-serif;
-  font-weight: bolder;
+  font-family: Poppins;
+  /* font-weight: bolder; */
   margin-bottom: 10px;
-  background-color: rgba(0, 0, 0, 0.9);
+  width: 200vw;
+  height: 13vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
 }
 
-.main{
+.container_grafico{
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.grafico{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: conic-gradient(var(--color_falta) 60%,
+                                    var(--color_progreso) 40%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+.container{
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container2{
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 5px;
+}
+
+.main {
   text-align: center;
-  padding: 7px;
-  box-sizing: border-box;
   font-size: 15px;
   color: #fff;
-  border: none;
-  min-height: 50px;
-  max-height: 80px;
-  font-family: sans-serif;
+  font-family: Poppins;
 }
 
-.gráfico_de_torta{
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background: white;
-}
-
-/* Esto está bien */
- #mayor_progreso .contenedor{
+#frase{
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  font-family: Poppins;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.9);
-  box-sizing: border-box;
+  margin-left: 20px;
 }
 
- #proyectos_en_curso .contenedor2 {
-  display: flex;
-  justify-content: flex-end;
-  box-sizing: border-box;
-  flex-wrap: wrap;
-  background-color: rgba(0, 0, 0, 0.9);
-  padding: 20px;
+#grafico01{
+  background-image: conic-gradient(var(--color_progreso) 90%,
+                                    var(--color_falta) 10%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
 }
 
-#text1 {
-  box-sizing: content-box;
+#grafico02{
+  background-image: conic-gradient(var(--color_progreso) 80%,
+                                    var(--color_falta) 20%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico03{
+  background-image: conic-gradient(var(--color_progreso) 60%,
+                                    var(--color_falta) 40%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico04{
+  background-image: conic-gradient(var(--color_progreso) 50%,
+                                    var(--color_falta) 50%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
+}
+
+#grafico05{
+  background-image: conic-gradient(var(--color_falta) 70%,
+                                    var(--color_progreso) 30%);
+  box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
 }
