@@ -12,16 +12,78 @@ main{
 
 
 .MenuPag3{
-  background-color: lightskyblue;
+  background-color:#070d59;
+  background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
+  background-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
   box-shadow: 2px 2px 5px #999;
   flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 
 }
-li{
+ul{ margin-top: 50px;
+  padding: 0 0 0 0;
+justify-content: center;
+align-items: center;
+text-align: center;}
+
+li{ justify-content: center;
+  text-align: center;
+  align-items: center;
   list-style:none;
+  color:white
+}
+a {
+  color: white;
+  font-size:20px ;
+  font-weight: 600;
 }
 
-a {
-  text-decoration: none;
-    }
+li a:hover{ color:black ;}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  ;
+
+}
+
+.contenido-oculto1{display: none;}
+.contenido-oculto2{display: none;}
+.contenido-oculto3{display: none;}
+.contenido-oculto4{display: none;}
+.contenido-oculto5{display: none;}
+.contenido-oculto6{display: none;}
+
+
+h3 {color:white;
+  background-color: black;
+  
+  font-family: Poppins;
+    text-decoration: none;
+  border: 0; }
+
+h3:hover { color: gray;
+
+  
+  
+;}   
+
+.texto-final{ margin-top: 10px;}
+
+
+@media(max-width: 800px){
+
+.MenuPag3{
+ display: none;
+
+
+
+}}
