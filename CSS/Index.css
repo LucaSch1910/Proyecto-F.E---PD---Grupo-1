@@ -35,10 +35,6 @@ h2{
 }
 /* CONTAINER 1 es para el Header */
 
-.container2 img {
-text-align: center;
-}
-
 .carrusel {
   display: flex;
   flex-direction: row;
