@@ -50,6 +50,9 @@ h2{
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
 }
+.container {
+  text-align: center;
+}
 
 .container_grafico1{
    width: 100px;
@@ -130,5 +133,3 @@ h2{
                                     var(--color_progreso) 30%);
   box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
 }
-
-
