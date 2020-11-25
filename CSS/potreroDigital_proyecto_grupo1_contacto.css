@@ -1,7 +1,7 @@
 *{padding: 0;
 margin: 0;
 }
-@media query (max-width:480px){
+@media query (max-width:360px){
   form, .contacto{
     width: 100%;
     background-attachment: fixed;
