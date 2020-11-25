@@ -1,13 +1,13 @@
+/*Agregue esto para que todo las páginas tenan la misma disposición inicial*/
 *{padding: 0;
 margin: 0;
 }
-@media query (max-width:360px){
-  form, .contacto{
+
+@media screen and (max-width: 768px){
+  input{
     width: 100%;
-    background-attachment: fixed;
   }
 }
-
 
 body{
   background-image: url(https://cdn.pixabay.com/photo/2015/07/02/10/38/stairway-828883_960_720.jpg);
@@ -16,13 +16,16 @@ body{
   margin: 0;
   font-family: Poppins;
 }
+
 form{
-  width: 450px;
+  width: 80vw;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
+  justify-content: center;
+
 }
 
 h3{
@@ -44,7 +47,9 @@ h3{
 }
 
 input{
-  width: 100%;
+
+  min-width: 37vw;
+  margin-left: 2px;
   margin-bottom: 20px;
   padding: 7px;
   box-sizing: border-box;
@@ -53,7 +58,7 @@ input{
 }
 
 textarea{
-  width: 100%;
+  width: 75vw;
   margin-bottom: 20px;
   padding: 7px;
   box-sizing: border-box;
@@ -66,18 +71,18 @@ textarea{
 
 .contacto{
   background-color: rgba(0, 0, 0, 0.8);
-  width: 100%;
+  width: 80vw;
   border none;
-  width: 450px;
-  padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px;
-  width: 450px;
+  margin-top: 10px;
   margin: auto;
+  justify-content: center;
 }
 
-#botón{
+#boton{
   background: black;
   color: #fff;
   padding: 20px;
+  cursor: pointer;
+  width: 100%;
 }
