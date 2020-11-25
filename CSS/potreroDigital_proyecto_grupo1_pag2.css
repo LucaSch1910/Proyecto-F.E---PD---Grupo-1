@@ -1,3 +1,4 @@
+
 :root{
 --color_progreso: #00008B;
   --color_falta: #C0C0C0;
@@ -6,6 +7,21 @@
 *{
   box-sizing: border-box;
   width: 100%;
+}
+
+@media screen and (max-width: 768px){
+  h2{
+    box-sizing: border-box;
+  }
+  .container, .container2{
+    padding: 5vw;
+  }
+  .main{
+    margin-left: 7vw;
+  }
+  .container_grafico1{
+    margin-left: 150px;
+  }
 }
 
 body{
@@ -35,13 +51,22 @@ h2{
   padding: 10px;
 }
 
-.container_grafico{
+.container_grafico1{
    width: 100px;
    height: 150px;
    display: flex;
    justify-content: center;
+    align-items: center;
+   margin-left:150px;
+}
+
+.container_grafico2{
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-   margin-left: 100px;
+  margin-left: 100px;
 }
 
 .grafico{
@@ -54,7 +79,6 @@ h2{
 }
 
 .container, .container2 {
-  padding: 10px;
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -106,4 +130,5 @@ h2{
                                     var(--color_progreso) 30%);
   box-shadow: 1px 1px 5px 1px rgb(70, 70, 70);
 }
+
 
