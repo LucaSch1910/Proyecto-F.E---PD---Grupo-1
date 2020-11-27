@@ -1,0 +1,46 @@
+.myHeader {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.headerimg {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background:
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}

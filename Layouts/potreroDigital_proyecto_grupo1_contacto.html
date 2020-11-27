@@ -6,28 +6,31 @@
   <title> Contacto </title>
   <link rel="stylesheet" href="../CSS/potreroDigital_proyecto_grupo1_contacto.css">
   <!-- Este es el diseño resposive, lo mejor es hacer mobile first -->
-  <link rel="stylesheet" href="CSS/potreroDigital_proyecto_grupo1_contacto.css">
+  <link rel="stylesheet" href="../CSS/header-footer.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-
-      <header>
-        <nav>
-
-          <div class="header" id="myHeader">
-             <ul>
-               <a href="#" class="btn btn-primary">Aptitudes</a>
-               <a href="#" class="btn btn-primary">Portfolio</a>
-               <a href="#" class="btn btn-primary">Proyectos en Curso</a>
-           </ul>
-               <img src="" alt="Foto carnet/personal">
-               <p>Nombre</p>
-              <p>Información de Contacto</p>
-
-         </div>
-       </nav>
-      </header>
+<header>
+  <div class="myHeader">
+      <div class="dropdown text-center">
+          <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Inicio
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Aptitudes</a>
+              <a class="dropdown-item" href="#">Portfolio</a>
+              <a class="dropdown-item" href="#">Proyectos en Curso</a>
+          </div>
+      </div>
+    <div class="element element1"> <img class="headerimg" src="../Images/foto.jpg" alt="Foto carnet/personal"> </div>
+    <div class="element element2"> <p>Nombre y Apellido</p> </div>
+    <div class="element element3"> <p>Información de Contacto</p> </div>
+  </div>
+</header>
     <body>
           <main>
 
@@ -47,10 +50,11 @@
             <input type="button" name="Valor" value="Enviar" id="boton">
         </form>
               </main>
-        <footer>
-         <img src="" alt="Instagram">
-         <img src="" alt="GitHUb">
-         <img src="" alt="Correo Electrónico">
-       </footer>
+              <footer class="row justify-content-center">
+                <a href="#" class="fa fa-github"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+              </footer>
     </body>
 </html>
