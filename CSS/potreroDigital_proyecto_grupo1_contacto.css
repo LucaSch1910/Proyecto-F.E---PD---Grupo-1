@@ -86,7 +86,3 @@ textarea{
   cursor: pointer;
   width: 100%;
 }
-
-#boton:active{
-  background-color:gray; color:black;
-}
