@@ -1,5 +1,6 @@
 body{
   display: flex;
+  background: linear-gradient(-45deg, #000080, #4169E1, #B0E0E6, #4682B4, #000080);
   width: 100%;
   justify-content: center;
 
