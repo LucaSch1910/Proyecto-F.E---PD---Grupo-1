@@ -8,8 +8,8 @@
 
 @media screen and (max-width: 768px){
   .carrusel{
-    display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 
@@ -31,7 +31,7 @@ h2{
   font-family: Poppins;
   box-sizing: content-box;
   height: 40px;
-  background-color: #fadadd;
+  background-color: #fff;
 }
 
 .myHeader {
@@ -42,7 +42,7 @@ h2{
 
 .carrusel {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
@@ -55,6 +55,7 @@ h2{
 .headerimg {
   width: 150px;
   height: 150px;
+  padding: 10px;
 }
 
 #bio{

@@ -27,7 +27,6 @@ background-image: center;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-
   box-shadow: 2px 2px 5px #999;
   flex-direction: column;
   text-align: center;
@@ -49,17 +48,18 @@ li{ justify-content: center;
 }
 a {
   color: white;
-  font-size:20px ;
+  font-size:20px;
   font-weight: 600;
   text-decoration: none;
 }
-
+li a {
+  color: blue;
+  background: rgba(255, 255, 255, 0.8);
+}
 li a:hover{ color:black ;}
 
 a:link, a:visited, a:active {
   text-decoration:none;
-  ;
-
 }
 
 .contenido-oculto1{display: none;}
