@@ -1,8 +1,3 @@
-*{
-  box-sizing: border-box;
-  width: 100%;
-}
-
 footer p {
   font-family: Poppins;
   color: #fff;
@@ -17,13 +12,6 @@ footer {
  .myHeader {
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.9);
-  text-align: center;
-}
-
-
-.myHeader {
-  margin-bottom: 20px;
-  background-color: rgba(0, 0, 0, 0.8);
   text-align: center;
 }
 
