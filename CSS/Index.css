@@ -16,13 +16,13 @@ p{
     text-align: center;
     font-size: 15px;
     color: #fff;
-    font-family: Times;
+    font-family: Poppins;
 }
 
 h2{
   color: black;
   text-align: center;
-  font-family: Times;
+  font-family: Poppins;
   box-sizing: content-box;
   height: 40px;
   background-color: #fadadd;
@@ -55,7 +55,7 @@ h2{
   text-align: center;
   font-size: 15px;
   color: #fff;
-  font-family: Times;
+  font-family: Poppins;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin-left: 20px;

@@ -1,3 +1,26 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+p {
+  font-family: Poppins;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+ .myHeader {
+  margin-bottom: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
+
+
 .myHeader {
   margin-bottom: 20px;
   background-color: rgba(0, 0, 0, 0.8);
@@ -7,10 +30,6 @@
 .headerimg {
   width: 150px;
   height: 150px;
-}
-
-footer {
-  background:
 }
 
 .fa {
