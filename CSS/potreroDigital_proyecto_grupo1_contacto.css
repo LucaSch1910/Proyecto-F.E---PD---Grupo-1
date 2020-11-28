@@ -79,10 +79,14 @@ textarea{
   justify-content: center;
 }
 
-#boton{
+#boton {
   background: black;
   color: #fff;
   padding: 20px;
   cursor: pointer;
   width: 100%;
+}
+
+#boton:active{
+  background-color:gray; color:black;
 }
