@@ -2,12 +2,18 @@ body{
   display: flex;
   width: 100%;
   justify-content: center;
-
+  background: linear-gradient(-45deg, #000080, #4169E1, #B0E0E6, #4682B4, #000080);
+  height: 100vh;
 }
 main{
   width: 95%;
   margin-top: 1%;
+}
 
+footer{
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
