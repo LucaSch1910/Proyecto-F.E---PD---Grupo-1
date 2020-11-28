@@ -45,6 +45,7 @@ a {
   color: white;
   font-size:20px ;
   font-weight: 600;
+  text-decoration: none;
 }
 
 li a:hover{ color:black ;}
@@ -65,16 +66,16 @@ a:link, a:visited, a:active {
 
 h3 {color:white;
   background-color: black;
-  
+
   font-family: Poppins;
     text-decoration: none;
   border: 0; }
 
 h3:hover { color: gray;
 
-  
-  
-;}   
+
+
+;}
 
 .texto-final{ margin-top: 10px;}
 
